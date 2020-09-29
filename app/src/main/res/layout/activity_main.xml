@@ -6,89 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/nametxt"
+        android:layout_width="308dp"
+        android:layout_height="72dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="student name"
         android:inputType="textPersonName"
-        android:text="Nama Mahasiswa"
+        android:textColorHint="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:id="@+id/nimtxt"
+        android:layout_width="307dp"
+        android:layout_height="84dp"
         android:ems="10"
+        android:hint="Students Number "
         android:inputType="number"
-        android:text="Nomor Induk Mahasiswa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/nametxt" />
 
     <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:id="@+id/dob"
+        android:layout_width="311dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/nimtxt"
         android:ems="10"
+        android:hint="date of birth"
         android:inputType="date"
-        android:text="Tanggal Lahir"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
-    <Button
-        android:id="@+id/bt_datepicker"
-        android:text="Show DatePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate"/>
+        app:layout_constraintTop_toBottomOf="@+id/nimtxt" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Laki-Laki"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="195dp"
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="345dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate"/>
+        app:layout_constraintTop_toBottomOf="@+id/dob">
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Perempuan"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="195dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton"/>
+        <RadioButton
+            android:id="@+id/Male"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="male" />
+
+        <RadioButton
+            android:id="@+id/Female"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="female" />
+    </RadioGroup>
 
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="258dp"
+        android:id="@+id/depart"
+        android:layout_width="310dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/jurusan_arrays"
+        android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2"/>
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
-
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="save_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depart"
+        app:layout_constraintVertical_bias="0.223" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

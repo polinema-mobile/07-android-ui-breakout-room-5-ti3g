@@ -1,4 +1,4 @@
-package com.example.jobsheet7;
+package com.example.a07_android_ui_breakout_room_5_ti3g;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.jobsheet7", appContext.getPackageName());
+        assertEquals("com.example.a07_android_ui_breakout_room_5_ti3g", appContext.getPackageName());
     }
 }

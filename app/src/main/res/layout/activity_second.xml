@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/ResultForm"
+        android:layout_width="257dp"
+        android:layout_height="525dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/nim"-->
+<!--        android:layout_width="224dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="76dp"-->
+<!--        android:text="TextView"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/ResultForm" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/date"-->
+<!--        android:layout_width="227dp"-->
+<!--        android:layout_height="52dp"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="75dp"-->
+<!--        android:text="TextView"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/nim" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/sex"-->
+<!--        android:layout_width="227dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_marginStart="28dp"-->
+<!--        android:layout_marginTop="52dp"-->
+<!--        android:text="TextView"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/date" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/depart"-->
+<!--        android:layout_width="222dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="28dp"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:text="TextView"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/sex" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
