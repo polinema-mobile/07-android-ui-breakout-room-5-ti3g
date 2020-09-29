@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jobsheet7</string>
+
+    <string-array name="Prodi_arrays">
+        <item>Akutansi</item>
+        <item>Teknologi Informasi</item>
+        <item>Administrasi Niaga</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Elektro</item>
+    </string-array>
+</resources>
