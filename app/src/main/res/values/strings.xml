@@ -1,20 +1,11 @@
 <resources>
-    <string name="app_name">07-android-ui-breakout-room-5-ti3g</string>
-   <string name="depart"> Choose a departement </string>
-    <string name="male">male</string>
-    <string name="female">female</string>
+    <string name="Prodi">Jobsheet7</string>
 
-    <string-array name="jurusan_arrays">
-            <item> Accounting </item>
-            <item> Electro Engineering </item>
-            <item> Civil Engineering</item>
-            <item> Information Technology</item>
-            <item> Business Administration </item>
-            <item> English </item>
-            <item> Machine Engineering </item>
-
-
+    <string-array name="Prodi_arrays">
+        <item>Akutansi</item>
+        <item>Teknologi Informasi</item>
+        <item>Administrasi Niaga</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Elektro</item>
     </string-array>
-
-    
 </resources>
