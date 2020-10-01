@@ -1,11 +1,68 @@
 <resources>
-    <string name="Prodi">Jobsheet7</string>
-
+    <string name="app_name">Jobsheet8</string>
     <string-array name="Prodi_arrays">
+        <item>Pilih Program Studi</item>
         <item>Akutansi</item>
         <item>Teknologi Informasi</item>
         <item>Administrasi Niaga</item>
         <item>Teknik Sipil</item>
         <item>Teknik Elektro</item>
+    </string-array>
+    <string-array name="Fakultas_arrays">
+        <item>Pilih Fakultas</item>
+        <item>SEKOLAH PASCASARJANA</item>
+    </string-array>
+    <string-array name="Status_arrays">
+        <item>Pilih Status Awal</item>
+        <item>Baru</item>
+        <item>Pindahan Luar YARSI</item>
+        <item>Administrasi Niaga</item>
+        <item>Pindahan Dari Fakultas YARSI</item>
+        <item>Pindahan Dari Prodi Fakultas YARSI</item>
+    </string-array>
+    <string-array name="Agama_arrays">
+        <item>Pilih Agama</item>
+        <item>ISLAM</item>
+        <item>kRISTEN</item>
+        <item>KATOLIK</item>
+        <item>HINDU</item>
+        <item>BUDDHA</item>
+    </string-array>
+    <string-array name="Provinsi_arrays">
+        <item>Pilih Provinsi</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+    </string-array>
+    <string-array name="Kota_arrays">
+        <item>Pilih Kota/Kabupaten</item>
+        <item>Jakarta Timur</item>
+        <item>Jakarta Selatan</item>
+        <item>Jakarta Barat</item>
+        <item>Jakarta Utara</item>
+        <item>Bandung</item>
+        <item>Solo</item>
+        <item>Malang</item>
+    </string-array>
+    <string-array name="universitas_arrays">
+        <item>Pilih Provinsi Asal Universitas</item>
+        <item>Pilih Provinsi</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+    </string-array>
+    <string-array name="kotaUniversitas_arrays">
+        <item>Pilih Kota Universitas Asal</item>
+        <item>Jakarta Timur</item>
+        <item>Jakarta Selatan</item>
+        <item>Jakarta Barat</item>
+        <item>Jakarta Utara</item>
+        <item>Bandung</item>
+        <item>Solo</item>
+        <item>Malang</item>
     </string-array>
 </resources>
